@@ -1,2 +1,2 @@
-# dask-elearning
-Repo with notebooks for Intro to Dask e-learning tutorial
+# intro-to-dask
+Resources for the Introduction to Dask e-learning tutorial
