@@ -1,1 +1,0 @@
-ddf.groupby("Origin")["DepDelay"].mean().compute()
