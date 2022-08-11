@@ -14,3 +14,6 @@ data/weather-big
 
 #dask graph
 mydask.png
+
+#dask worker space
+dask-worker-space
