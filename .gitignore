@@ -1,16 +1,19 @@
 
-notebooks/.DS_Store
-notebooks/.ipynb_checkpoints/02_dataframe-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/03_array-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/04_machine_learning-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/05_delayed-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/06_architecture_and_internals-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/0_Test_Drive-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/1_Dask_what_and_when-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/2_Dask-DataFrames-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/3_Dask-Arrays-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/4_Machine_learning-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/5_Dask-Delayed-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/5_Schedulers-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/6_Dask-Architecture-checkpoint.ipynb
-notebooks/images/.DS_Store
+# Ignore Mac DS_Store files
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# data folder content
+data/*.csv
+data/*tar.gz
+data/nycflights
+data/random.hdf5
+data/weather-big
+
+#dask graph
+mydask.png
+
+#dask worker space
+dask-worker-space
