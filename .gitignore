@@ -4,3 +4,8 @@
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+#data folder content
+data/*.csv
+data/*tar.gz
+data/nycflights
